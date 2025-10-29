@@ -1,0 +1,119 @@
+/* ================================================
+   Mithra Consulting - Custom Branding
+   Generated: Mon Oct 27 06:33:37 UTC 2025
+   ================================================ */
+
+/* Brand Colors */
+:root {
+    --company-primary: #1A3C6E;
+    --company-secondary: #A7B1BA;
+    --company-accent: #00B3A4;
+    --company-text: #333333;
+}
+
+/* Header Background */
+#page header.navbar {
+    background: var(--company-primary) !important;
+    background: linear-gradient(135deg, var(--company-primary) 0%, var(--company-secondary) 100%) !important;
+}
+
+/* Navigation Menu */
+#page header.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+#page header.navbar .nav-link:hover {
+    color: var(--company-accent) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Login Page Customization */
+.login-page {
+    background: linear-gradient(135deg, var(--company-primary) 0%, var(--company-secondary) 100%) !important;
+}
+
+.login-page .card {
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.login-page .card-header {
+    background: var(--company-primary) !important;
+    border-radius: 15px 15px 0 0 !important;
+}
+
+/* Login Button */
+.login-page .btn-primary {
+    background: var(--company-accent) !important;
+    border-color: var(--company-accent) !important;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.login-page .btn-primary:hover {
+    background: var(--company-secondary) !important;
+    border-color: var(--company-secondary) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Buttons */
+.btn-primary {
+    background: var(--company-primary) !important;
+    border-color: var(--company-primary) !important;
+}
+
+.btn-primary:hover {
+    background: var(--company-secondary) !important;
+    border-color: var(--company-secondary) !important;
+}
+
+/* Links */
+a {
+    color: var(--company-primary) !important;
+}
+
+a:hover {
+    color: var(--company-secondary) !important;
+}
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+    border-bottom: 3px solid var(--company-accent) !important;
+    color: var(--company-primary) !important;
+}
+
+/* Custom Footer */
+#page footer::after {
+    content: "© 2025 Mithra Consulting. All rights reserved. | Contact: support@mithraconsulting.com";
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: var(--company-text);
+}
+
+/* Form focus states */
+.form-control:focus {
+    border-color: var(--company-primary) !important;
+    box-shadow: 0 0 0 0.2rem rgba(26, 60, 110, 0.25) !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--company-primary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--company-secondary);
+}
